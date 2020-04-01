@@ -1,0 +1,959 @@
+@media only screen and (max-width: 1200px) {
+  .social-links {
+    left: 6.8%;
+  }
+
+  .aboutme-section {
+    top: -57%;
+    padding: 5% 0%;
+  }
+
+  .skills-section {
+    margin-top: -18%;
+  }
+
+  .gs-name {
+    margin-top: 10%;
+  }
+
+  .gs-desc {
+    margin-bottom: 60px;
+  }
+
+  .contact-section {
+    margin-bottom: -35%;
+  }
+
+  .contact-details li i {
+    padding-right: 3%;
+  }
+
+  #award-date {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    margin: 60px auto;
+  }
+
+  h2 {
+    font-size: 300%;
+  }
+
+  .btn {
+    padding: 10px;
+    letter-spacing: 1px;
+  }
+
+  .social-links {
+    left: 6.4%;
+  }
+
+  .download-btn a {
+    font-size: 85%;
+  }
+
+  .hero-text {
+    top: 25%;
+  }
+
+  .aboutme-section {
+    top: -42%;
+    padding: 3% 0;
+  }
+
+  .aboutme-text {
+    font-size: 100%;
+  }
+
+  .skills-section {
+    margin-top: -15%;
+  }
+
+  .project-img {
+    height: 200px;
+  }
+
+  .date {
+    font-size: 100%;
+  }
+
+  .certificate-img {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .small-icons {
+    height: 80px;
+  }
+
+  .prog-level {
+    height: 100%;
+  }
+
+  .gs-name {
+    font-size: 110%;
+    font-weight: 600;
+  }
+
+  .gs-desc {
+    font-size: 90%;
+  }
+
+  .project-img {
+    height: 180px;
+  }
+
+  .degree-name {
+    font-size: 180%;
+  }
+
+  .award-detail {
+    font-size: 120%;
+  }
+
+  .certificate-img {
+    height: 150px;
+  }
+
+  .contact-details li {
+    font-size: 90%;
+  }
+
+  .contact-btn {
+    padding: 8px;
+  }
+
+  .date {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social-links {
+    left: 5.8%;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+    color: black;
+  }
+
+  .nav-link {
+    color: black;
+  }
+
+  .nav-link:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .company-name {
+    font-size: 135%;
+  }
+
+  .date {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .social-links {
+    left: 5.3%;
+  }
+
+  .project-img {
+    height: 150px;
+  }
+
+  .certificate-img {
+    height: 120px;
+  }
+
+  .degree-name {
+    font-size: 160%;
+  }
+
+  .award-name {
+    font-size: 90%;
+  }
+
+  .award-detail {
+    font-size: 110%;
+  }
+
+  .connection-link {
+    margin-top: -10;
+  }
+
+  .link-logo {
+    height: 80px;
+  }
+
+  .contact-section {
+    margin-bottom: -39%;
+  }
+
+  .contact-details li {
+    font-size: 80%;
+  }
+
+  input,
+  textarea {
+    padding: 0% 1%;
+    width: 120%;
+    font-size: 100%;
+  }
+
+  .content {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .contact-details li {
+    font-size: 70%;
+  }
+
+  .company-name {
+    font-size: 100%;
+  }
+
+  .date {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 19.5px;
+  }
+
+  .header-text {
+    top: 30%;
+    font-size: 210%;
+    letter-spacing: 3px;
+  }
+
+  .header-sub-text {
+    top: 42%;
+    letter-spacing: 1px;
+  }
+
+  .social-links {
+    top: 50%;
+    left: 5.5%;
+  }
+
+  row {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 220%;
+    margin-top: 10%;
+  }
+
+  h2:after {
+    width: 80px;
+  }
+
+  .aboutme-section,
+  .experience-section,
+  .portfolio-section,
+  .awards-section,
+  .contact-section {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .aboutme-section {
+    top: -60%;
+    padding: 8% 0;
+  }
+
+  .skills-section {
+    margin-top: -40%;
+  }
+
+  .skill-type {
+    font-size: 170%;
+  }
+
+  .small-icons {
+    margin-bottom: 0%;
+  }
+
+  .gs-name {
+    margin-top: 4%;
+    font-size: 150%;
+  }
+
+  .gs-desc {
+    margin-bottom: 10%;
+    font-size: 120%;
+  }
+
+  .professional-skill {
+    margin: 0 25% 10%;
+  }
+
+  .ps-name {
+    font-size: 140%;
+    padding-top: 30px;
+    margin-left: 28%;
+  }
+
+  .ps-icons {
+    height: 80px;
+    width: auto;
+    margin: 10% auto;
+  }
+
+  .ps-img {
+    text-align: center;
+  }
+
+  .skill-level {
+    font-size: 190%;
+  }
+
+  .tech-name {
+    font-size: 130%;
+  }
+
+  .prog-bar {
+    margin-bottom: 5%;
+  }
+
+  .project-img {
+    height: 200px;
+    margin-bottom: 10%;
+  }
+
+  .negative-top-margin {
+    margin-top: -5%;
+  }
+
+  .content {
+    font-size: 100%;
+    left: 55%;
+  }
+
+  .education-section {
+    margin-top: -10%;
+  }
+
+  .edu-section {
+    margin-top: 2%;
+    height: 70vh;
+  }
+
+  .degree-name {
+    font-size: 110%;
+    padding: 15px 0;
+  }
+
+  .univ-name {
+    font-size: 100%;
+    padding-bottom: 10px;
+  }
+
+  .date {
+    text-align: left;
+    color: #000;
+    font-size: 120%;
+  }
+
+  .company-name {
+    font-size: 150%;
+  }
+
+  .designation {
+    margin: 3% 0;
+    font-size: 150%;
+  }
+
+  .role li {
+    font-size: 120%;
+    font-weight: 300;
+    letter-spacing: 0px;
+    padding: 15px 0;
+  }
+
+  .award-name {
+    font-size: 70%;
+  }
+
+  .certificates-section {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .certificate-img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+
+  .links-section {
+    margin-top: -5%;
+  }
+
+  .links li a {
+    font-size: 115%;
+  }
+
+  .contact-section {
+    margin-bottom: -10%;
+    padding: 4%;
+  }
+
+  .contact-section .col-md-6 {
+    width: 100%;
+  }
+
+  .contact-section .col-md-6 ul {
+    width: 100%;
+  }
+
+  .back-image {
+    height: 120vh;
+    margin-top: -60%;
+  }
+
+  form {
+    margin-top: 10%;
+    margin-left: -20%;
+    padding: 0;
+  }
+
+  footer p {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    margin: 40px 0;
+  }
+
+  .header-text {
+    font-size: 200%;
+  }
+
+  .social-links {
+    left: 3%;
+  }
+
+  .skills-section {
+    margin-top: -50%;
+  }
+
+  .project-img {
+    height: 200px;
+  }
+
+  .education-section {
+    height: 60vh;
+  }
+
+  .degree-name {
+    font-size: 120%;
+  }
+
+  .experience-section {
+    margin-top: 50%;
+  }
+
+  .award-name {
+    font-size: 80%;
+  }
+
+  .award-detail {
+    font-size: 100%;
+    letter-spacing: 0px;
+  }
+
+  .award-desc {
+    font-size: 100%;
+  }
+
+  .links li {
+    font-size: 98%;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  body {
+    font-size: 14px;
+  }
+
+  h2:after {
+    width: 30px;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  h2 {
+    font-size: 180%;
+    margin-bottom: 30px;
+  }
+
+  .row {
+    max-width: 90%;
+  }
+
+  .header-text {
+    top: 30%;
+  }
+
+  .header-sub-text {
+    top: 45%;
+  }
+
+  .social-links {
+    top: 55%;
+    left: 2%;
+    position: absolute;
+  }
+
+  .aboutme-section {
+    top: 15%;
+    max-width: 100%;
+    margin: 0 5%;
+    padding: 10% 0;
+  }
+
+  .skills-section {
+    margin-top: 20%;
+  }
+
+  .skill-type {
+    font-size: 160%;
+    margin-bottom: 50px;
+  }
+
+  .ps-name {
+    margin-left: 1%;
+  }
+
+  .gs-desc {
+    margin-bottom: 50px;
+  }
+
+  .professional-skill {
+    margin: 5%;
+  }
+
+  .ps-name {
+    text-align: center;
+  }
+
+  .prog {
+    margin-top: 20%;
+  }
+
+  .js-wp-1 {
+    width: 100%;
+  }
+
+  .project-img {
+    height: 200px;
+  }
+
+  .content {
+    font-size: 60%;
+  }
+
+  .degree-name {
+    font-size: 120%;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  .edu-section {
+    height: 55vh;
+  }
+
+  .univ-name {
+    font-size: 105%;
+  }
+
+  .time-period {
+    font-size: 100%;
+  }
+
+  .experience-section {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 32%;
+  }
+
+  .company-name {
+    font-size: 150%;
+  }
+
+  .designation {
+    font-size: 120%;
+  }
+
+  .date {
+    font-size: 90%;
+  }
+
+  .role li {
+    font-size: 130%;
+  }
+
+  .awards-section {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .award-detail {
+    font-size: 120%;
+  }
+
+  .award-desc {
+    font-size: 150%;
+  }
+
+  .certificates-section,
+  .links-section,
+  .contact-section {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .certificate-img {
+    height: 150px;
+    widows: 100%;
+  }
+
+  .connection-link {
+    max-width: 100%;
+  }
+
+  .links li i {
+    padding: 0;
+    margin-left: -30%;
+    font-size: 150%;
+  }
+
+  .links li a {
+    margin-left: -30%;
+    font-size: 150%;
+  }
+
+  form {
+    margin-left: -30%;
+  }
+
+  .contact-details {
+    margin-left: -20%;
+  }
+
+  .contact-details li {
+    font-size: 120%;
+  }
+
+  .back-image {
+    height: 75vh;
+  }
+
+  footer p {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body {
+    font-size: 12px;
+  }
+
+  .header-sub-text {
+    top: 39%;
+    word-spacing: 3px;
+  }
+
+  .social-links {
+    top: 46%;
+  }
+
+  .project-img {
+    height: 150px;
+  }
+
+  .links li a {
+    font-size: 130%;
+  }
+
+  .contact-details li {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .header-text {
+    font-size: 150%;
+  }
+
+  .social-links {
+    top: 48%;
+  }
+
+  .social-links {
+    left: -3%;
+  }
+
+  .ps-icons {
+    height: 50px;
+  }
+
+  .project-img {
+    height: 150px;
+    width: 100%;
+  }
+
+  .back-image {
+    height: 80vh;
+  }
+
+  .skills-section {
+    margin-top: 30%;
+  }
+
+  .degree-name {
+    font-size: 100%;
+  }
+
+  .univ-name {
+    font-size: 90%;
+  }
+
+  .company-name {
+    font-size: 140%;
+  }
+
+  .social-icons ul li {
+    padding-right: 2px;
+  }
+
+  .links li a {
+    font-size: 90%;
+  }
+
+  .contact-details li {
+    font-size: 70%;
+  }
+
+  form {
+    margin-left: -50%;
+  }
+
+  .contact-btn {
+    padding: 5px;
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .header-text {
+    font-size: 160%;
+    letter-spacing: 1px;
+  }
+
+  .header-sub-text {
+    top: 37%;
+  }
+
+  .social-links {
+    top: 45%;
+    left: -4%;
+  }
+
+  .skills-section {
+    margin-top: 40%;
+  }
+
+  .project-img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .edu-section {
+    height: 40vh;
+  }
+
+  .degree-name {
+    font-size: 90%;
+  }
+
+  .univ-name {
+    font-size: 80%;
+  }
+
+  .time-period {
+    font-size: 90%;
+  }
+
+  .experience-section {
+    margin-top: 15%;
+  }
+
+  .awards-section {
+    margin-top: 18%;
+  }
+
+  .award-name {
+    font-size: 70%;
+  }
+
+  .certificate-img {
+    height: 18%;
+  }
+
+  .links li i {
+    font-size: 140%;
+  }
+
+  .link-logo {
+    height: 60px;
+    width: auto;
+    margin-left: 15px;
+  }
+
+  .links li a {
+    font-size: 100%;
+    margin-top: 20px;
+  }
+
+  .back-image {
+    height: 70vh;
+  }
+
+  .contact-section {
+    margin-bottom: -80%;
+  }
+
+  .contact-details {
+    margin-left: -20%;
+  }
+
+  .contact-details li {
+    padding-bottom: 5%;
+    font-size: 60%;
+  }
+
+  form {
+    margin-left: -50%;
+  }
+
+  .social-icons ul {
+    margin-left: -50%;
+  }
+
+  .social-icons ul li {
+    padding-right: 6px;
+  }
+
+  .social-icons ul li a {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  .header-text {
+    font-size: 120%;
+  }
+
+  .header-sub-text {
+    font-size: 100%;
+  }
+
+  .award-name {
+    font-size: 55%;
+  }
+
+  .content {
+    font-size: 50%;
+  }
+
+  .content .btn {
+    padding: 5px;
+  }
+
+  .company-name {
+    font-size: 100%;
+  }
+
+  .contact-details li {
+    font-size: 50%;
+  }
+
+  .links li a {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  h2 {
+    font-size: 140%;
+  }
+
+  .social-links {
+    left: -8%;
+  }
+
+  .social-links ul li {
+    padding-right: 5px;
+  }
+
+  .social-links ul li a {
+    font-size: 60%;
+  }
+
+  .links {
+    margin-left: -30%;
+  }
+
+  .contact-details li {
+    font-size: 40%;
+  }
+
+  form {
+    margin-left: -60%;
+  }
+
+  .social-icons ul li {
+    padding-right: 3px;
+  }
+
+  .social-icons ul li a {
+    font-size: 80%;
+  }
+}

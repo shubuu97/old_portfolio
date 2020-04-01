@@ -1,0 +1,780 @@
+/* base color:- #2ecc71 */
+
+/*----------------------------------------*/
+/*General*/
+/*----------------------------------------*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #5d5d5d;
+}
+
+.row {
+  max-width: 70%;
+  margin: 0 15%;
+}
+
+.col {
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------------------------------*/
+/*Reusable Elements*/
+/*----------------------------------------*/
+
+section {
+  margin: 80px auto;
+}
+
+h2 {
+  font-size: 350%;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+h2:after {
+  height: 3px;
+  width: 100px;
+  background-color: #2ecc71;
+  margin: 30px auto 0;
+  content: "";
+  border-radius: 20px;
+  display: block;
+}
+
+h3 {
+  font-size: 220%;
+  letter-spacing: 3px;
+}
+
+.small-icons {
+  height: 100px;
+  width: auto;
+  margin-bottom: 15%;
+}
+
+/*---------------------Margin-Padding-------------*/
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/*----------------------Button---------------------- */
+
+.btn {
+  background-color: #2ecc71;
+  letter-spacing: 2px;
+  padding: 16px 20px;
+  color: #fff;
+  border-radius: 0px;
+  text-align: center;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #25a25a;
+  color: #f7f7f7;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*----------------------------------------*/
+/*Header*/
+/*----------------------------------------*/
+header {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.3)),
+      to(rgba(0, 0, 0, 0.3))
+    ),
+    url(img/image.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(img/mypic.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #c8c9c7;
+  height: 150vh;
+}
+
+.header-text {
+  font-weight: 900;
+  font-size: 250%;
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  word-spacing: 1%;
+  letter-spacing: 5px;
+  color: #333b50;
+}
+
+.header-sub-text {
+  font-weight: 600;
+  font-size: 120%;
+  top: 60%;
+  left: 10%;
+  position: absolute;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  color: #333b50;
+}
+
+.social-links {
+  top: 66%;
+  left: 7.2%;
+  position: absolute;
+}
+
+.social-links ul {
+  list-style-type: none;
+}
+
+.social-links ul li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.social-links ul li a {
+  text-decoration: none;
+  display: block;
+  color: #333b50;
+  font-size: 80%;
+}
+
+.navbar {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav {
+  z-index: 999;
+}
+
+.nav-item {
+  display: block;
+  margin-right: 15px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 120%;
+  color: #000;
+  margin: 10px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #2ecc71;
+}
+
+/*----------------------------------------*/
+/*About Me*/
+/*----------------------------------------*/
+
+.aboutme-section {
+  background-color: #333b50;
+  top: -53%;
+  position: relative;
+  max-width: 70%;
+  margin: 0px 15%;
+  padding: 5%;
+  color: #f1f1f1;
+}
+
+.download-btn {
+  margin: 5% auto;
+}
+.aboutme-heading {
+  margin-bottom: 30px;
+}
+
+.aboutme-text {
+  font-size: 120%;
+  color: #f1f1f1;
+  line-height: 150%;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+
+/*----------------------------------------*/
+/*Skills*/
+/*----------------------------------------*/
+
+/*----------------------General Skills---------------------- */
+
+.skills-section {
+  margin-top: -14%;
+}
+
+.gs-desc {
+  margin-top: 10px;
+  font-size: 120%;
+  margin-bottom: 25%;
+}
+
+/*----------------------Professional Skills---------------------- */
+
+.professional-skill {
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(48, 46, 47, 0.5);
+  box-shadow: 0px 0px 5px 1px rgba(48, 46, 47, 0.5);
+  margin: 0 15% 5%;
+}
+
+.ps-icons-container {
+  height: 120px;
+  width: 120px;
+  padding: 20px 0px;
+}
+
+.ps-icons {
+  height: 100%;
+  width: 100%;
+}
+
+.skill-type {
+  margin-bottom: 8%;
+  font-weight: bold;
+}
+
+.ps-name {
+  font-size: 200%;
+  padding-top: 5%;
+}
+
+.ps-desc {
+  padding: 3% 0;
+  margin-left: 15px;
+}
+
+/*----------------------Progress Bar---------------------- */
+
+.skill-level {
+  margin: 8% auto;
+  color: #f1f1f1;
+  font-size: 300%;
+  font-weight: 600;
+}
+
+.prog {
+  margin-top: 3%;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.8)),
+      to(rgba(0, 0, 0, 0.8))
+    ),
+    url(img/skills\2jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/skills\2jpg);
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.tech-name {
+  font-size: 150%;
+  color: #f1f1f1;
+}
+
+.prog-bar {
+  height: 20px;
+  color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  position: relative;
+}
+
+.prog-level {
+  position: absolute;
+  height: 100%;
+  background-color: #2ecc71;
+}
+
+.skill-list {
+  padding-bottom: 7%;
+}
+
+.p-95 {
+  width: 90%;
+}
+
+.p-50 {
+  width: 50%;
+}
+
+.p-60 {
+  width: 60%;
+}
+
+.p-70 {
+  width: 70%;
+}
+
+.p-75 {
+  width: 75%;
+}
+
+.p-90 {
+  width: 90%;
+}
+
+.p-95 {
+  width: 95%;
+}
+
+.p-80 {
+  width: 80%;
+}
+
+.p-85 {
+  width: 85%;
+}
+
+/*----------------------------------------*/
+/*Portfolio*/
+/*----------------------------------------*/
+
+.project-img {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.mg-30 {
+  margin-bottom: 30px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.h-50 {
+  height: 100px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  top: 0;
+  left: 15;
+  right: 15;
+  height: 0;
+  background-color: transparent;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0.7)),
+    to(rgba(0, 0, 0, 0.7))
+  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  overflow: hidden;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.content {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  position: absolute;
+  font-size: 60%;
+}
+
+.content .btn {
+  margin-top: 10px;
+  padding: 8px 25px;
+  font-size: 150%;
+}
+
+/*----------------------------------------*/
+/*Education*/
+/*----------------------------------------*/
+
+.edu-section {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.6)),
+      to(rgba(0, 0, 0, 0.6))
+    ),
+    url(img/education.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/education.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.degree {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.degree-name {
+  font-size: 200%;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+.univ-name {
+  font-size: 150%;
+  padding-bottom: 0px;
+}
+
+.time-period {
+  font-size: 150%;
+  font-weight: 600;
+}
+
+/*----------------------------------------*/
+/*Experience*/
+/*----------------------------------------*/
+
+.experience-section {
+  max-width: 70%;
+  margin: 0 15%;
+}
+
+.experience {
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(1, 1, 1, 0.5);
+  box-shadow: 0px 0px 10px 1px rgba(1, 1, 1, 0.5);
+  padding: 12% 0;
+  color: #000;
+  margin-bottom: 5%;
+}
+
+.company-name {
+  font-size: 150%;
+  color: #2ecc71;
+}
+
+.date {
+  margin-top: 1%;
+  font-size: 105%;
+  font-weight: 700;
+  text-align: right;
+  color: #2ecc71;
+}
+
+.fa-calendar {
+  margin-right: 3%;
+}
+
+.designation {
+  margin: 3% 0;
+  font-size: 120%;
+}
+
+.role {
+  margin-top: 10%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.role li {
+  padding: 10px;
+  font-size: 120%;
+  letter-spacing: 1px;
+}
+
+.role li::before {
+  font-family: "FontAwesome";
+  content: "\f0a4";
+  color: #000;
+  margin-right: 1%;
+}
+
+/*----------------------------------------*/
+/*Awards*/
+/*----------------------------------------*/
+
+.awards-section {
+  max-width: 70%;
+  margin: 7% auto 0;
+}
+
+.award {
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(1, 1, 1, 0.5);
+  box-shadow: 0px 0px 10px 1px rgba(1, 1, 1, 0.5);
+  padding: 8% 0;
+}
+
+.award-name {
+  color: #2ecc71;
+  padding: 2% 0;
+}
+
+.fa-group {
+  margin-right: 2%;
+}
+
+.award-detail {
+  font-size: 130%;
+  color: #000;
+}
+
+.award-desc {
+  padding: 2% 0;
+  font-size: 120%;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+#award-date {
+  text-align: left;
+}
+
+/*----------------------------------------*/
+/*Certificate*/
+/*----------------------------------------*/
+
+.certificate-img {
+  width: 100%;
+  height: 200px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.certificate-img:hover {
+  opacity: 0.7;
+}
+
+/*----------------------------------------*/
+/*Links*/
+/*----------------------------------------*/
+
+.connection-link ol li {
+  padding: 25px 0;
+  list-style: none;
+}
+
+.links li i {
+  color: black;
+  font-size: 250%;
+}
+
+.link-logo {
+  height: 100px;
+  width: auto;
+  margin-left: 35px;
+}
+
+.links li a {
+  display: block;
+  font-size: 180%;
+  margin-left: 65px;
+  margin-top: 20px;
+}
+
+/*----------------------------------------*/
+/*Contact*/
+/*----------------------------------------*/
+
+.contact-section {
+  background-color: #333b50;
+  max-width: 70%;
+  margin: 0px 15%;
+  padding: 7% 0%;
+  color: #f1f1f1;
+  margin-bottom: -30%;
+  position: relative;
+}
+
+.contact-details {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-details li {
+  padding-bottom: 5%;
+  font-size: 100%;
+}
+
+.contact-details li i {
+  padding: 0px 5%;
+}
+
+form ul {
+  list-style-type: none;
+}
+
+form ul li {
+  margin-bottom: 3%;
+}
+
+input,
+textarea {
+  padding: 0% 2%;
+  width: 120%;
+  font-size: 120%;
+}
+
+.contact-btn {
+  padding: 10px 15px;
+}
+
+.btn i {
+  margin-left: 2%;
+}
+
+.social-icons {
+  margin-top: 7%;
+}
+
+.social-icons ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social-icons ul li {
+  padding: 1%;
+  margin-right: 2%;
+  display: inline-block;
+}
+
+.social-icons ul li a {
+  text-decoration: none;
+  display: block;
+  color: #f1f1f1;
+  font-size: 150%;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-google-plus,
+.fa-git {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.fa-facebook:hover,
+.fa-facebook:active {
+  color: #4867aa;
+}
+
+.fa-twitter:hover,
+.fa-twitter:active {
+  color: #1da1f2;
+}
+
+.fa-linkedin:hover,
+.fa-linkedin:active {
+  color: #0077b5;
+}
+
+.fa-google-plus:hover,
+.fa-google-plus:active {
+  color: #de5245;
+}
+
+.fa-git:hover,
+-fa-git:active {
+  color: #3e2d01;
+}
+
+.overflow-text {
+  padding-left: 15%;
+}
+
+.overflow-text-2 {
+  padding-left: 12%;
+}
+
+/*----------------------------------------*/
+/*Back Image*/
+/*----------------------------------------*/
+
+.back-image {
+  background-image: linear-gradient(
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7), to(rgba(0, 0, 0, 0.7)))
+    ),
+    url(img/contact\back.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/contact\back.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+/*----------------------------------------*/
+/*Footer*/
+/*----------------------------------------*/
+
+footer {
+  background-color: #333b50;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  font-size: 150%;
+  padding-top: 1%;
+}
+
+/*----------------------------------------*/
+/*Animation*/
+/*----------------------------------------*/
+
+.ps-animate {
+  opacity: 0;
+}
+
+.ps-animate.animated {
+  opacity: 1;
+}
